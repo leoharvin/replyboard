@@ -14,4 +14,4 @@ Requires **Node 24** (see [`.nvmrc`](.nvmrc)) and **pnpm 12** (`corepack enable`
 
 ## License
 
-<!-- Phase 8 -->
+[MIT](LICENSE) © 2026 Leo Harvin Niccols
