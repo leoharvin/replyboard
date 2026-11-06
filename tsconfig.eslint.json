@@ -5,5 +5,6 @@
     "composite": false,
     "isolatedDeclarations": false
   },
-  "include": ["vitest.config.ts", "packages/**/*.ts", "apps/**/*.ts"]
+  "include": ["vitest.config.ts", "packages/**/*.ts", "apps/**/*.ts", "apps/**/*.tsx"],
+  "exclude": ["**/node_modules", "**/dist", "**/.open-next"]
 }

@@ -135,4 +135,10 @@ export default tseslint.config(
     },
   })),
   eslintConfigPrettier,
+  // eslint-config-prettier disables `curly`; re-enable it so braces stay enforced (Section 4.1).
+  // 'multi-line' matches the guide, which allows a single-line `if` without braces.
+  {
+    files: ['**/*.{ts,tsx}'],
+    rules: { curly: ['error', 'multi-line'] },
+  },
 );

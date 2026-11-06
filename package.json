@@ -7,7 +7,7 @@
     "node": ">=24 <25"
   },
   "scripts": {
-    "typecheck": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.eslint.json",
     "lint": "eslint .",
     "test": "vitest run",
     "format": "prettier --check ."
